@@ -10,8 +10,25 @@ Copy UITableViewCellAnimationKit.swift file in your project and use it simply wi
 
 # Example
 ```
-cell.bouncingAnimation(forIndex: indexPath.row)
-cell.bouncingAnimation(forIndex: indexPath.row)
+func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        if (animationType == .bounce){
+            cell.bouncingAnimation(forIndex: indexPath.row)
+        }else if (animationType == .moveIn){
+            cell.moveInAnimation(forIndex: indexPath.row)
+        }else if (animationType == .leftIn){
+            cell.leftInAnimation(forIndex: indexPath.row)
+        }else if (animationType == .rightIn){
+            cell.rightInAnimation(forIndex: indexPath.row)
+        }else if (animationType == .side){
+            if (indexPath.row % 2 == 0){
+                cell.leftInAnimation(forIndex: indexPath.row)
+            }else{
+                cell.rightInAnimation(forIndex: indexPath.row)
+            }
+        }else{
+            cell.fadeInAnimation(forIndex: indexPath.row)
+        }
+    }
 ```
 
-![alt tag](https://github.com/pratik-123/UITableViewCellAnimation/blob/master/AnimationKit/tableviewcell.png)
+![alt tag](https://github.com/pratik-123/UITableViewCellAnimation/blob/master/tableviewcell.png)
