@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		BF0C827021588E7C00E08257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C826F21588E7C00E08257 /* AppDelegate.swift */; };
-		BF0C827221588E7C00E08257 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C827121588E7C00E08257 /* ViewController.swift */; };
 		BF0C827521588E7C00E08257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0C827321588E7C00E08257 /* Main.storyboard */; };
 		BF0C827721588E7E00E08257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0C827621588E7E00E08257 /* Assets.xcassets */; };
 		BF0C827A21588E7E00E08257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0C827821588E7E00E08257 /* LaunchScreen.storyboard */; };
+		BF0C828321588F7200E08257 /* TableAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C828221588F7200E08257 /* TableAnimationViewController.swift */; };
+		BF0C828621588FDD00E08257 /* AnimationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C828521588FDD00E08257 /* AnimationTableViewCell.swift */; };
+		BF0C82882158A83200E08257 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C82872158A83200E08257 /* HomeViewController.swift */; };
+		BF0C828A2158A87D00E08257 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C82892158A87D00E08257 /* HomeTableViewCell.swift */; };
+		BF0C828D2158AD6D00E08257 /* UITableViewCellAnimationKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0C828C2158AD6D00E08257 /* UITableViewCellAnimationKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BF0C826C21588E7C00E08257 /* UITableViewCellAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewCellAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF0C826F21588E7C00E08257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF0C827121588E7C00E08257 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF0C827421588E7C00E08257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF0C827621588E7E00E08257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF0C827921588E7E00E08257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF0C827B21588E7E00E08257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0C828221588F7200E08257 /* TableAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableAnimationViewController.swift; sourceTree = "<group>"; };
+		BF0C828521588FDD00E08257 /* AnimationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTableViewCell.swift; sourceTree = "<group>"; };
+		BF0C82872158A83200E08257 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BF0C82892158A87D00E08257 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		BF0C828C2158AD6D00E08257 /* UITableViewCellAnimationKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellAnimationKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,42 @@
 		BF0C826E21588E7C00E08257 /* UITableViewCellAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				BF0C828B2158AD4100E08257 /* Helper */,
+				BF0C828121588F1F00E08257 /* Controller */,
 				BF0C826F21588E7C00E08257 /* AppDelegate.swift */,
-				BF0C827121588E7C00E08257 /* ViewController.swift */,
 				BF0C827321588E7C00E08257 /* Main.storyboard */,
 				BF0C827621588E7E00E08257 /* Assets.xcassets */,
 				BF0C827821588E7E00E08257 /* LaunchScreen.storyboard */,
 				BF0C827B21588E7E00E08257 /* Info.plist */,
 			);
 			path = UITableViewCellAnimation;
+			sourceTree = "<group>";
+		};
+		BF0C828121588F1F00E08257 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF0C828421588FA900E08257 /* TableViewCell */,
+				BF0C828221588F7200E08257 /* TableAnimationViewController.swift */,
+				BF0C82872158A83200E08257 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF0C828421588FA900E08257 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BF0C828521588FDD00E08257 /* AnimationTableViewCell.swift */,
+				BF0C82892158A87D00E08257 /* HomeTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		BF0C828B2158AD4100E08257 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BF0C828C2158AD6D00E08257 /* UITableViewCellAnimationKit.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF0C827221588E7C00E08257 /* ViewController.swift in Sources */,
+				BF0C828321588F7200E08257 /* TableAnimationViewController.swift in Sources */,
+				BF0C828A2158A87D00E08257 /* HomeTableViewCell.swift in Sources */,
 				BF0C827021588E7C00E08257 /* AppDelegate.swift in Sources */,
+				BF0C828621588FDD00E08257 /* AnimationTableViewCell.swift in Sources */,
+				BF0C82882158A83200E08257 /* HomeViewController.swift in Sources */,
+				BF0C828D2158AD6D00E08257 /* UITableViewCellAnimationKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UITableViewCellAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UITableViewCellAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
