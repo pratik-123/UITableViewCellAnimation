@@ -30,23 +30,23 @@ UITableViewCellAnimation is collection of animation in swift4 to perform animati
 import UITableViewCellAnimation
 
 func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-if (animationType == .bounce){
-cell.bouncingAnimation(forIndex: indexPath.row)
-}else if (animationType == .moveIn){
-cell.moveInAnimation(forIndex: indexPath.row)
-}else if (animationType == .leftIn){
-cell.leftInAnimation(forIndex: indexPath.row)
-}else if (animationType == .rightIn){
-cell.rightInAnimation(forIndex: indexPath.row)
-}else if (animationType == .side){
-if (indexPath.row % 2 == 0){
-cell.leftInAnimation(forIndex: indexPath.row)
-}else{
-cell.rightInAnimation(forIndex: indexPath.row)
-}
-}else{
-cell.fadeInAnimation(forIndex: indexPath.row)
-}
+    if (animationType == .bounce){
+        cell.bouncingAnimation(forIndex: indexPath.row)
+    }else if (animationType == .moveIn){
+        cell.moveInAnimation(forIndex: indexPath.row)
+    }else if (animationType == .leftIn){
+        cell.leftInAnimation(forIndex: indexPath.row)
+    }else if (animationType == .rightIn){
+        cell.rightInAnimation(forIndex: indexPath.row)
+    }else if (animationType == .side){
+        if (indexPath.row % 2 == 0){
+            cell.leftInAnimation(forIndex: indexPath.row)
+        }else{
+            cell.rightInAnimation(forIndex: indexPath.row)
+        }
+    }else{
+        cell.fadeInAnimation(forIndex: indexPath.row)
+    }
 }
 ```
 
