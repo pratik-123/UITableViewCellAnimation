@@ -1,0 +1,6 @@
+framework module Pods_UITableViewCellAnimation_Tests {
+  umbrella header "Pods-UITableViewCellAnimation_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

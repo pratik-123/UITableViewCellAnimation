@@ -1,0 +1,16 @@
+PODS:
+  - UITableViewCellAnimation (0.1.0)
+
+DEPENDENCIES:
+  - UITableViewCellAnimation (from `../`)
+
+EXTERNAL SOURCES:
+  UITableViewCellAnimation:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UITableViewCellAnimation: f1d80811f7b23ed13b4996e49c0439a1e9e014f1
+
+PODFILE CHECKSUM: 9b4322beacdd5812497f6b9777725b8178ab7185
+
+COCOAPODS: 1.4.0

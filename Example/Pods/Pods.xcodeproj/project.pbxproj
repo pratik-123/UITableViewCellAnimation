@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28BA661C2810AF75718A54656AE6C55B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3E8FBE704FFDB76AA6CDF0FF7729BAA3 /* UITableViewCellAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFFF81716807619A9C5042085DAF863D /* UITableViewCellAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B56EE9795C0F34722A7B669572F58F5 /* Pods-UITableViewCellAnimation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46612D8371EBA07AAB2804CFB05C6723 /* Pods-UITableViewCellAnimation_Example-dummy.m */; };
+		4D00C897AFA5B9D0291D700DB3B3C905 /* Pods-UITableViewCellAnimation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D37E10838FD5469EECF903AF6C02FE0 /* Pods-UITableViewCellAnimation_Tests-dummy.m */; };
+		5B4D58260C2A16ABF37124223317ADBC /* Pods-UITableViewCellAnimation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D7278BBE863866CDD3F20B8F45889BF /* Pods-UITableViewCellAnimation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6206C2872B5CF9B16B002277D7E4B57B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9FE98048C05458D7405A8D9A8FA4EA34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A2742DE95F634E074B4757114F5CD245 /* Pods-UITableViewCellAnimation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA8658901B7AD9AD25E7495D880CD83D /* Pods-UITableViewCellAnimation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF9A8E442160F4AF00680812 /* UITableViewCellAnimationKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9A8E432160F4A300680812 /* UITableViewCellAnimationKit.swift */; };
+		C341FD0A1DF62971103CF576427C9191 /* UITableViewCellAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE84C8950D8B238DC3957CAFF1F7763 /* UITableViewCellAnimation-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2478B04B77A7B89EBF3699A8DDB1353C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29A9BC187382FC449C7B4098812688E6;
+			remoteInfo = UITableViewCellAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09408263F8D7948B371C280B37BDC2C0 /* Pods-UITableViewCellAnimation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITableViewCellAnimation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0AADE9C6AB3FD86F96AD0409993FCD2D /* Pods-UITableViewCellAnimation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UITableViewCellAnimation_Example.modulemap"; sourceTree = "<group>"; };
+		1661C53ECC0D351616D12A49818ED629 /* UITableViewCellAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewCellAnimation-prefix.pch"; sourceTree = "<group>"; };
+		2267CCBBE01FD33ED23CB94F2FEB4136 /* UITableViewCellAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UITableViewCellAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27CBAC3B2E745A8C0441BA743EC863E9 /* Pods-UITableViewCellAnimation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITableViewCellAnimation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C6795B86C6E6727A4A0751A0D9B1D12 /* Pods-UITableViewCellAnimation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UITableViewCellAnimation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3243B97E718EBF5F2122CE5AE7E75325 /* UITableViewCellAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UITableViewCellAnimation.xcconfig; sourceTree = "<group>"; };
+		444EEA93793E5965CE1A9C74578171ED /* Pods-UITableViewCellAnimation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITableViewCellAnimation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		46612D8371EBA07AAB2804CFB05C6723 /* Pods-UITableViewCellAnimation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UITableViewCellAnimation_Example-dummy.m"; sourceTree = "<group>"; };
+		4C8CC13E66D2008B52A3E91D99621715 /* Pods-UITableViewCellAnimation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITableViewCellAnimation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4EE84C8950D8B238DC3957CAFF1F7763 /* UITableViewCellAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCellAnimation-dummy.m"; sourceTree = "<group>"; };
+		572F09DCA649FC0CD299A3DD0FC26EBF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		59C5B6DD97E2086A1760CE2F1973F010 /* Pods-UITableViewCellAnimation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITableViewCellAnimation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5EC9F7A14E29E345A743587A030C5A5E /* Pods_UITableViewCellAnimation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITableViewCellAnimation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D5321E6B4AE6A5F815503143EB67DC6 /* Pods-UITableViewCellAnimation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UITableViewCellAnimation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7379EC20C6FEAC8964B6EF1049951583 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7950660B737D79F3FF0C41C7BE3BC569 /* UITableViewCellAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UITableViewCellAnimation.modulemap; sourceTree = "<group>"; };
+		81779E66971E3757A21AB74B4C1BD40A /* Pods-UITableViewCellAnimation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITableViewCellAnimation_Tests-resources.sh"; sourceTree = "<group>"; };
+		85A7C2FB74C1109E675A05EBCECC0AA2 /* Pods-UITableViewCellAnimation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UITableViewCellAnimation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		92E8340EA9227F1D7424698C7A0742B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BCFBE5FC4DDB739ED274C275E353A4E /* Pods_UITableViewCellAnimation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UITableViewCellAnimation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D37E10838FD5469EECF903AF6C02FE0 /* Pods-UITableViewCellAnimation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UITableViewCellAnimation_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D7278BBE863866CDD3F20B8F45889BF /* Pods-UITableViewCellAnimation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITableViewCellAnimation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9F49A986E31C106B11E10E3469D9F03C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A51594D5B35D4A2C7F8491968EFF0E6F /* Pods-UITableViewCellAnimation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UITableViewCellAnimation_Tests.modulemap"; sourceTree = "<group>"; };
+		B01B07BDD936EA61A360D19ABE614F87 /* Pods-UITableViewCellAnimation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITableViewCellAnimation_Example-resources.sh"; sourceTree = "<group>"; };
+		BA8658901B7AD9AD25E7495D880CD83D /* Pods-UITableViewCellAnimation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UITableViewCellAnimation_Example-umbrella.h"; sourceTree = "<group>"; };
+		BF9A8E422160F4A300680812 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		BF9A8E432160F4A300680812 /* UITableViewCellAnimationKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellAnimationKit.swift; sourceTree = "<group>"; };
+		BFFF81716807619A9C5042085DAF863D /* UITableViewCellAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableViewCellAnimation-umbrella.h"; sourceTree = "<group>"; };
+		D07C7C507E351E570E3BCC190EF676B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DDFE98B1FA67FD6779BF1A3F809EF110 /* Pods-UITableViewCellAnimation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UITableViewCellAnimation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E0BA1BC2439716C4CB3E1DC139584D9C /* Pods-UITableViewCellAnimation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UITableViewCellAnimation_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FFF4A6B8C7699272D704A1800B7A435A /* UITableViewCellAnimation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = UITableViewCellAnimation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8105EC2E5F930695B68148A1CCC1C942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6206C2872B5CF9B16B002277D7E4B57B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B135179E6315E918ECA84FF3589CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BA661C2810AF75718A54656AE6C55B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E8C3D2ABB9861C7689AB33C90F61CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE98048C05458D7405A8D9A8FA4EA34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F799131D6C3AA5B3573112E069B0D57 /* Pods-UITableViewCellAnimation_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				92E8340EA9227F1D7424698C7A0742B3 /* Info.plist */,
+				A51594D5B35D4A2C7F8491968EFF0E6F /* Pods-UITableViewCellAnimation_Tests.modulemap */,
+				6D5321E6B4AE6A5F815503143EB67DC6 /* Pods-UITableViewCellAnimation_Tests-acknowledgements.markdown */,
+				85A7C2FB74C1109E675A05EBCECC0AA2 /* Pods-UITableViewCellAnimation_Tests-acknowledgements.plist */,
+				9D37E10838FD5469EECF903AF6C02FE0 /* Pods-UITableViewCellAnimation_Tests-dummy.m */,
+				E0BA1BC2439716C4CB3E1DC139584D9C /* Pods-UITableViewCellAnimation_Tests-frameworks.sh */,
+				81779E66971E3757A21AB74B4C1BD40A /* Pods-UITableViewCellAnimation_Tests-resources.sh */,
+				9D7278BBE863866CDD3F20B8F45889BF /* Pods-UITableViewCellAnimation_Tests-umbrella.h */,
+				27CBAC3B2E745A8C0441BA743EC863E9 /* Pods-UITableViewCellAnimation_Tests.debug.xcconfig */,
+				4C8CC13E66D2008B52A3E91D99621715 /* Pods-UITableViewCellAnimation_Tests.release.xcconfig */,
+			);
+			name = "Pods-UITableViewCellAnimation_Tests";
+			path = "Target Support Files/Pods-UITableViewCellAnimation_Tests";
+			sourceTree = "<group>";
+		};
+		4F70AEEA68664E66757B57ED02052A07 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD8F0F160A1C3DF80001014AA660722E /* Pods-UITableViewCellAnimation_Example */,
+				0F799131D6C3AA5B3573112E069B0D57 /* Pods-UITableViewCellAnimation_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A631663AE07EFC485F37EF2E00A549C5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EA2DFC06606981F6FA8593969B8B4123 /* Products */,
+				4F70AEEA68664E66757B57ED02052A07 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A631663AE07EFC485F37EF2E00A549C5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E00A2182148ED73F06CD420939649D83 /* UITableViewCellAnimation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF559C3FF0CEB8EB216AC2C1C719E430 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7379EC20C6FEAC8964B6EF1049951583 /* Info.plist */,
+				7950660B737D79F3FF0C41C7BE3BC569 /* UITableViewCellAnimation.modulemap */,
+				3243B97E718EBF5F2122CE5AE7E75325 /* UITableViewCellAnimation.xcconfig */,
+				4EE84C8950D8B238DC3957CAFF1F7763 /* UITableViewCellAnimation-dummy.m */,
+				1661C53ECC0D351616D12A49818ED629 /* UITableViewCellAnimation-prefix.pch */,
+				BFFF81716807619A9C5042085DAF863D /* UITableViewCellAnimation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UITableViewCellAnimation";
+			sourceTree = "<group>";
+		};
+		BF9A8E412160F4A300680812 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BF9A8E422160F4A300680812 /* .gitkeep */,
+				BF9A8E432160F4A300680812 /* UITableViewCellAnimationKit.swift */,
+			);
+			name = Classes;
+			path = UITableViewCellAnimation/Classes;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D5F81EA9453AB0A4DEAAD4D7451CD1BE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D07C7C507E351E570E3BCC190EF676B2 /* LICENSE */,
+				572F09DCA649FC0CD299A3DD0FC26EBF /* README.md */,
+				FFF4A6B8C7699272D704A1800B7A435A /* UITableViewCellAnimation.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DD8F0F160A1C3DF80001014AA660722E /* Pods-UITableViewCellAnimation_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9F49A986E31C106B11E10E3469D9F03C /* Info.plist */,
+				0AADE9C6AB3FD86F96AD0409993FCD2D /* Pods-UITableViewCellAnimation_Example.modulemap */,
+				2C6795B86C6E6727A4A0751A0D9B1D12 /* Pods-UITableViewCellAnimation_Example-acknowledgements.markdown */,
+				444EEA93793E5965CE1A9C74578171ED /* Pods-UITableViewCellAnimation_Example-acknowledgements.plist */,
+				46612D8371EBA07AAB2804CFB05C6723 /* Pods-UITableViewCellAnimation_Example-dummy.m */,
+				59C5B6DD97E2086A1760CE2F1973F010 /* Pods-UITableViewCellAnimation_Example-frameworks.sh */,
+				B01B07BDD936EA61A360D19ABE614F87 /* Pods-UITableViewCellAnimation_Example-resources.sh */,
+				BA8658901B7AD9AD25E7495D880CD83D /* Pods-UITableViewCellAnimation_Example-umbrella.h */,
+				DDFE98B1FA67FD6779BF1A3F809EF110 /* Pods-UITableViewCellAnimation_Example.debug.xcconfig */,
+				09408263F8D7948B371C280B37BDC2C0 /* Pods-UITableViewCellAnimation_Example.release.xcconfig */,
+			);
+			name = "Pods-UITableViewCellAnimation_Example";
+			path = "Target Support Files/Pods-UITableViewCellAnimation_Example";
+			sourceTree = "<group>";
+		};
+		E00A2182148ED73F06CD420939649D83 /* UITableViewCellAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				BF9A8E412160F4A300680812 /* Classes */,
+				D5F81EA9453AB0A4DEAAD4D7451CD1BE /* Pod */,
+				BF559C3FF0CEB8EB216AC2C1C719E430 /* Support Files */,
+			);
+			name = UITableViewCellAnimation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EA2DFC06606981F6FA8593969B8B4123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BCFBE5FC4DDB739ED274C275E353A4E /* Pods_UITableViewCellAnimation_Example.framework */,
+				5EC9F7A14E29E345A743587A030C5A5E /* Pods_UITableViewCellAnimation_Tests.framework */,
+				2267CCBBE01FD33ED23CB94F2FEB4136 /* UITableViewCellAnimation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2D0CF53064026F4529534A847BC7D46B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4D58260C2A16ABF37124223317ADBC /* Pods-UITableViewCellAnimation_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335AB7C4D51716DA5A4D505C90816225 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8FBE704FFDB76AA6CDF0FF7729BAA3 /* UITableViewCellAnimation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7493C2CE80160A9D633B13A60FBF2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2742DE95F634E074B4757114F5CD245 /* Pods-UITableViewCellAnimation_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29A9BC187382FC449C7B4098812688E6 /* UITableViewCellAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180076D602874B14782D591E8B4DAD96 /* Build configuration list for PBXNativeTarget "UITableViewCellAnimation" */;
+			buildPhases = (
+				9316A35A2D1563B95ED05C521C821A91 /* Sources */,
+				8105EC2E5F930695B68148A1CCC1C942 /* Frameworks */,
+				335AB7C4D51716DA5A4D505C90816225 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITableViewCellAnimation;
+			productName = UITableViewCellAnimation;
+			productReference = 2267CCBBE01FD33ED23CB94F2FEB4136 /* UITableViewCellAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB4693881B67D53A0321031230A8C3F1 /* Pods-UITableViewCellAnimation_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 798E3CC4C6EFB9D825B7BABEC537C021 /* Build configuration list for PBXNativeTarget "Pods-UITableViewCellAnimation_Example" */;
+			buildPhases = (
+				6B80A9FEBB679876F8512128D1A22F00 /* Sources */,
+				B9B135179E6315E918ECA84FF3589CDB /* Frameworks */,
+				4D7493C2CE80160A9D633B13A60FBF2E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F04E18B3CF100D67DD2C0A48A0B7EEC /* PBXTargetDependency */,
+			);
+			name = "Pods-UITableViewCellAnimation_Example";
+			productName = "Pods-UITableViewCellAnimation_Example";
+			productReference = 9BCFBE5FC4DDB739ED274C275E353A4E /* Pods_UITableViewCellAnimation_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9CEBE1038C0CF4DF4A84F02342E2C0B /* Pods-UITableViewCellAnimation_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DC6F5B56A635ED3CE65A3CE36674264 /* Build configuration list for PBXNativeTarget "Pods-UITableViewCellAnimation_Tests" */;
+			buildPhases = (
+				2CD40018B40B34B7FBE610D20D475F32 /* Sources */,
+				C7E8C3D2ABB9861C7689AB33C90F61CE /* Frameworks */,
+				2D0CF53064026F4529534A847BC7D46B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UITableViewCellAnimation_Tests";
+			productName = "Pods-UITableViewCellAnimation_Tests";
+			productReference = 5EC9F7A14E29E345A743587A030C5A5E /* Pods_UITableViewCellAnimation_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EA2DFC06606981F6FA8593969B8B4123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB4693881B67D53A0321031230A8C3F1 /* Pods-UITableViewCellAnimation_Example */,
+				F9CEBE1038C0CF4DF4A84F02342E2C0B /* Pods-UITableViewCellAnimation_Tests */,
+				29A9BC187382FC449C7B4098812688E6 /* UITableViewCellAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CD40018B40B34B7FBE610D20D475F32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D00C897AFA5B9D0291D700DB3B3C905 /* Pods-UITableViewCellAnimation_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B80A9FEBB679876F8512128D1A22F00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B56EE9795C0F34722A7B669572F58F5 /* Pods-UITableViewCellAnimation_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9316A35A2D1563B95ED05C521C821A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C341FD0A1DF62971103CF576427C9191 /* UITableViewCellAnimation-dummy.m in Sources */,
+				BF9A8E442160F4AF00680812 /* UITableViewCellAnimationKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F04E18B3CF100D67DD2C0A48A0B7EEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UITableViewCellAnimation;
+			target = 29A9BC187382FC449C7B4098812688E6 /* UITableViewCellAnimation */;
+			targetProxy = 2478B04B77A7B89EBF3699A8DDB1353C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3857248BF7F9B1F33C673498167CB561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09408263F8D7948B371C280B37BDC2C0 /* Pods-UITableViewCellAnimation_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITableViewCellAnimation_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITableViewCellAnimation_Example/Pods-UITableViewCellAnimation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UITableViewCellAnimation_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BDBBD5EC3556FA67FFB6090CCDA58C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFE98B1FA67FD6779BF1A3F809EF110 /* Pods-UITableViewCellAnimation_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITableViewCellAnimation_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITableViewCellAnimation_Example/Pods-UITableViewCellAnimation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UITableViewCellAnimation_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5AC2571702450A3BD6E28963F802F623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C8CC13E66D2008B52A3E91D99621715 /* Pods-UITableViewCellAnimation_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITableViewCellAnimation_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITableViewCellAnimation_Tests/Pods-UITableViewCellAnimation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UITableViewCellAnimation_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C8792BB7B269C9A98FBF3674EEBD5AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3243B97E718EBF5F2122CE5AE7E75325 /* UITableViewCellAnimation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UITableViewCellAnimation/UITableViewCellAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UITableViewCellAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UITableViewCellAnimation/UITableViewCellAnimation.modulemap";
+				PRODUCT_NAME = UITableViewCellAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E861EEEB935EA0C63E7E79A40386D13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27CBAC3B2E745A8C0441BA743EC863E9 /* Pods-UITableViewCellAnimation_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UITableViewCellAnimation_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UITableViewCellAnimation_Tests/Pods-UITableViewCellAnimation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UITableViewCellAnimation_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4651FFF03784D293B592EE70184D4E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3243B97E718EBF5F2122CE5AE7E75325 /* UITableViewCellAnimation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UITableViewCellAnimation/UITableViewCellAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UITableViewCellAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UITableViewCellAnimation/UITableViewCellAnimation.modulemap";
+				PRODUCT_NAME = UITableViewCellAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180076D602874B14782D591E8B4DAD96 /* Build configuration list for PBXNativeTarget "UITableViewCellAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4651FFF03784D293B592EE70184D4E5 /* Debug */,
+				C8792BB7B269C9A98FBF3674EEBD5AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		798E3CC4C6EFB9D825B7BABEC537C021 /* Build configuration list for PBXNativeTarget "Pods-UITableViewCellAnimation_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BDBBD5EC3556FA67FFB6090CCDA58C8 /* Debug */,
+				3857248BF7F9B1F33C673498167CB561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DC6F5B56A635ED3CE65A3CE36674264 /* Build configuration list for PBXNativeTarget "Pods-UITableViewCellAnimation_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E861EEEB935EA0C63E7E79A40386D13E /* Debug */,
+				5AC2571702450A3BD6E28963F802F623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

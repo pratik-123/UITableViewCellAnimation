@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UITableViewCellAnimation'
-  s.version          = '0.1.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of UITableViewCellAnimation.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+UITableViewCellAnimation is collections of animation that helps to best way represent tableview in application.
                        DESC
 
   s.homepage         = 'https://github.com/pratik-123/UITableViewCellAnimation'
