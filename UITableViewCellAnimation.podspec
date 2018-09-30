@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UITableViewCellAnimation'
-  s.version          = '1.0.1'
-  s.summary          = 'A short description of UITableViewCellAnimation.'
+  s.version          = '1.0.4'
+  s.summary          = 'UITableViewCellAnimation use for basic tableviewcell animation'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,7 +24,7 @@ UITableViewCellAnimation is collections of animation that helps to best way repr
   s.homepage         = 'https://github.com/pratik-123/UITableViewCellAnimation'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'pratik-123' => 'pratik.lad@outlook.com' }
+  s.author           = { 'Pratik Lad' => 'pratik.lad@outlook.com' }
   s.source           = { :git => 'https://github.com/pratik-123/UITableViewCellAnimation.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

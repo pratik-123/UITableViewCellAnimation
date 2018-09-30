@@ -11,6 +11,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+- Xcode 9+
+- Swift 4
+
 ## Installation
 
 UITableViewCellAnimation is available through [CocoaPods](https://cocoapods.org). To install
@@ -20,9 +23,37 @@ it, simply add the following line to your Podfile:
 pod 'UITableViewCellAnimation'
 ```
 
+# UITableViewCellAnimation
+UITableViewCellAnimation is collection of animation in swift4 to perform animation in uitableviewcell.
+
+# Example
+```
+func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+if (animationType == .bounce){
+cell.bouncingAnimation(forIndex: indexPath.row)
+}else if (animationType == .moveIn){
+cell.moveInAnimation(forIndex: indexPath.row)
+}else if (animationType == .leftIn){
+cell.leftInAnimation(forIndex: indexPath.row)
+}else if (animationType == .rightIn){
+cell.rightInAnimation(forIndex: indexPath.row)
+}else if (animationType == .side){
+if (indexPath.row % 2 == 0){
+cell.leftInAnimation(forIndex: indexPath.row)
+}else{
+cell.rightInAnimation(forIndex: indexPath.row)
+}
+}else{
+cell.fadeInAnimation(forIndex: indexPath.row)
+}
+}
+```
+
+![alt tag](https://github.com/pratik-123/UITableViewCellAnimation/blob/master/tableviewcell.png)
+
 ## Author
 
-pratik-123, pratik.lad@outlook.com
+Pratik Lad, pratik.lad@outlook.com
 
 ## License
 
