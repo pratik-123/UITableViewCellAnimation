@@ -14,7 +14,7 @@ UITableViewCellAnimation is available through [CocoaPods](https://cocoapods.org)
 it, simply add the following line to your Podfile:
 
 ```ruby
-        pod 'UITableViewCellAnimation'
+pod 'UITableViewCellAnimation'
 ```
 
 If you install pod then "import UITableViewCellAnimation" else simply use like below
