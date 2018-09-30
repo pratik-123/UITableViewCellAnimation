@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UITableViewCellAnimation_Example' do
+  pod 'UITableViewCellAnimation', :path => '../'
+
+  target 'UITableViewCellAnimation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
