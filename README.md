@@ -45,4 +45,3 @@ func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forR
 ```
 
 ![alt tag](https://github.com/pratik-123/UITableViewCellAnimation/blob/master/tableviewcell.png)
-“
