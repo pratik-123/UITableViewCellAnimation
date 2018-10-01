@@ -17,7 +17,8 @@ it, simply add the following line to your Podfile:
 pod 'UITableViewCellAnimation'
 ```
 
-If you install pod then "import UITableViewCellAnimation" else simply use like below
+If you install pod then "import UITableViewCellAnimation" else simply use like below.
+for more info visit [UITableViewCellAnimation](https://www.swiftlearn.net/2018/09/uitableviewcell-animation.html).
 
 
 # Example
@@ -44,3 +45,4 @@ func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forR
 ```
 
 ![alt tag](https://github.com/pratik-123/UITableViewCellAnimation/blob/master/tableviewcell.png)
+“
