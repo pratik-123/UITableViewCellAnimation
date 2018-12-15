@@ -12,6 +12,8 @@ class TableAnimationViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     var animationType : enumAnimation = .fadeIn
     
+    var animatedCellIndex = [Int]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = animationType.displayName
@@ -19,6 +21,7 @@ class TableAnimationViewController: UIViewController {
     }
 
     @IBAction func buttonHandlerRefresh(_ sender: UIButton) {
+        animatedCellIndex = []
         tableView.reloadData()
     }
 }
@@ -36,6 +39,10 @@ extension TableAnimationViewController : UITableViewDelegate,UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        if animatedCellIndex.contains(indexPath.row){
+            return
+        }
+        animatedCellIndex.append(indexPath.row)
         if (animationType == .bounce){
             cell.bouncingAnimation(forIndex: indexPath.row)
         }else if (animationType == .moveIn){
