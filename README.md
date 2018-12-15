@@ -8,6 +8,19 @@ UITableViewCellAnimation is collection of animation in swift4 to perform animati
 # How to use
 Copy UITableViewCellAnimationKit.swift file in your project and use it simply with UITableViewCell to .method
 
+# OR
+
+UITableViewCellAnimation is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'UITableViewCellAnimation'
+```
+
+If you install pod then "import UITableViewCellAnimation" else simply use like below.
+for more info visit [UITableViewCellAnimation](https://www.swiftlearn.net/2018/09/uitableviewcell-animation.html).
+
+
 # Example
 ```
 func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
